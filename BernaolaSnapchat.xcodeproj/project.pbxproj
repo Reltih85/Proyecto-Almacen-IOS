@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0AF56332CBDD49D00B7E961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF56322CBDD49D00B7E961 /* AppDelegate.swift */; };
+		C0AF56352CBDD49D00B7E961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF56342CBDD49D00B7E961 /* SceneDelegate.swift */; };
+		C0AF56372CBDD49D00B7E961 /* inicarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF56362CBDD49D00B7E961 /* inicarSesionViewController.swift */; };
+		C0AF563A2CBDD49D00B7E961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AF56382CBDD49D00B7E961 /* Main.storyboard */; };
+		C0AF563C2CBDD49F00B7E961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AF563B2CBDD49F00B7E961 /* Assets.xcassets */; };
+		C0AF563F2CBDD49F00B7E961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AF563D2CBDD49F00B7E961 /* LaunchScreen.storyboard */; };
+		C0AF56472CBDD7FA00B7E961 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0AF56462CBDD7FA00B7E961 /* GoogleService-Info.plist */; };
+		C0AF564B2CBDDE2600B7E961 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C0AF564A2CBDDE2600B7E961 /* FirebaseAnalytics */; };
+		C0AF564D2CBDDE2600B7E961 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C0AF564C2CBDDE2600B7E961 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		C0AF564F2CBDDE2600B7E961 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C0AF564E2CBDDE2600B7E961 /* FirebaseAuth */; };
+		C0AF56512CBDDE2600B7E961 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C0AF56502CBDDE2600B7E961 /* FirebaseDatabase */; };
+		C0AF56532CBDDE2600B7E961 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C0AF56522CBDDE2600B7E961 /* FirebaseStorage */; };
+		C0B70A5C2CC9824600B43D62 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B70A5B2CC9824600B43D62 /* RegistroViewController.swift */; };
+		C0CE8A822CC715580086E6BE /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8A812CC715580086E6BE /* SnapsViewController.swift */; };
+		C0CE8A842CC718630086E6BE /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8A832CC718630086E6BE /* ImagenViewController.swift */; };
+		C0CE8A862CC724830086E6BE /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8A852CC724830086E6BE /* ElegirUsuarioViewController.swift */; };
+		C0CE8A8A2CC72A220086E6BE /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8A892CC72A220086E6BE /* Usuario.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0AF562F2CBDD49D00B7E961 /* BernaolaSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BernaolaSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AF56322CBDD49D00B7E961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0AF56342CBDD49D00B7E961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0AF56362CBDD49D00B7E961 /* inicarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inicarSesionViewController.swift; sourceTree = "<group>"; };
+		C0AF56392CBDD49D00B7E961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0AF563B2CBDD49F00B7E961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0AF563E2CBDD49F00B7E961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0AF56402CBDD49F00B7E961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AF56462CBDD7FA00B7E961 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0B70A5B2CC9824600B43D62 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		C0CE8A812CC715580086E6BE /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		C0CE8A832CC718630086E6BE /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		C0CE8A852CC724830086E6BE /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		C0CE8A892CC72A220086E6BE /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0AF562C2CBDD49D00B7E961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AF564B2CBDDE2600B7E961 /* FirebaseAnalytics in Frameworks */,
+				C0AF564F2CBDDE2600B7E961 /* FirebaseAuth in Frameworks */,
+				C0AF56512CBDDE2600B7E961 /* FirebaseDatabase in Frameworks */,
+				C0AF56532CBDDE2600B7E961 /* FirebaseStorage in Frameworks */,
+				C0AF564D2CBDDE2600B7E961 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0AF56262CBDD49D00B7E961 = {
+			isa = PBXGroup;
+			children = (
+				C0AF56312CBDD49D00B7E961 /* BernaolaSnapchat */,
+				C0AF56302CBDD49D00B7E961 /* Products */,
+				C0AF56492CBDDE2600B7E961 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0AF56302CBDD49D00B7E961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0AF562F2CBDD49D00B7E961 /* BernaolaSnapchat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0AF56312CBDD49D00B7E961 /* BernaolaSnapchat */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE8A882CC72A050086E6BE /* Modelos */,
+				C0CE8A872CC729CA0086E6BE /* ViewControllers */,
+				C0AF56462CBDD7FA00B7E961 /* GoogleService-Info.plist */,
+				C0AF56322CBDD49D00B7E961 /* AppDelegate.swift */,
+				C0AF56342CBDD49D00B7E961 /* SceneDelegate.swift */,
+				C0AF56382CBDD49D00B7E961 /* Main.storyboard */,
+				C0AF563B2CBDD49F00B7E961 /* Assets.xcassets */,
+				C0AF563D2CBDD49F00B7E961 /* LaunchScreen.storyboard */,
+				C0AF56402CBDD49F00B7E961 /* Info.plist */,
+			);
+			path = BernaolaSnapchat;
+			sourceTree = "<group>";
+		};
+		C0AF56492CBDDE2600B7E961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0CE8A872CC729CA0086E6BE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE8A812CC715580086E6BE /* SnapsViewController.swift */,
+				C0CE8A832CC718630086E6BE /* ImagenViewController.swift */,
+				C0AF56362CBDD49D00B7E961 /* inicarSesionViewController.swift */,
+				C0CE8A852CC724830086E6BE /* ElegirUsuarioViewController.swift */,
+				C0B70A5B2CC9824600B43D62 /* RegistroViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C0CE8A882CC72A050086E6BE /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE8A892CC72A220086E6BE /* Usuario.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0AF562E2CBDD49D00B7E961 /* BernaolaSnapchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AF56432CBDD49F00B7E961 /* Build configuration list for PBXNativeTarget "BernaolaSnapchat" */;
+			buildPhases = (
+				C0AF562B2CBDD49D00B7E961 /* Sources */,
+				C0AF562C2CBDD49D00B7E961 /* Frameworks */,
+				C0AF562D2CBDD49D00B7E961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BernaolaSnapchat;
+			packageProductDependencies = (
+				C0AF564A2CBDDE2600B7E961 /* FirebaseAnalytics */,
+				C0AF564C2CBDDE2600B7E961 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				C0AF564E2CBDDE2600B7E961 /* FirebaseAuth */,
+				C0AF56502CBDDE2600B7E961 /* FirebaseDatabase */,
+				C0AF56522CBDDE2600B7E961 /* FirebaseStorage */,
+			);
+			productName = BernaolaSnapchat;
+			productReference = C0AF562F2CBDD49D00B7E961 /* BernaolaSnapchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0AF56272CBDD49D00B7E961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C0AF562E2CBDD49D00B7E961 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C0AF562A2CBDD49D00B7E961 /* Build configuration list for PBXProject "BernaolaSnapchat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0AF56262CBDD49D00B7E961;
+			packageReferences = (
+				C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C0AF56542CBDEA2F00B7E961 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = C0AF56302CBDD49D00B7E961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0AF562E2CBDD49D00B7E961 /* BernaolaSnapchat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0AF562D2CBDD49D00B7E961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AF563F2CBDD49F00B7E961 /* LaunchScreen.storyboard in Resources */,
+				C0AF56472CBDD7FA00B7E961 /* GoogleService-Info.plist in Resources */,
+				C0AF563C2CBDD49F00B7E961 /* Assets.xcassets in Resources */,
+				C0AF563A2CBDD49D00B7E961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0AF562B2CBDD49D00B7E961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CE8A822CC715580086E6BE /* SnapsViewController.swift in Sources */,
+				C0CE8A842CC718630086E6BE /* ImagenViewController.swift in Sources */,
+				C0CE8A8A2CC72A220086E6BE /* Usuario.swift in Sources */,
+				C0AF56372CBDD49D00B7E961 /* inicarSesionViewController.swift in Sources */,
+				C0AF56332CBDD49D00B7E961 /* AppDelegate.swift in Sources */,
+				C0B70A5C2CC9824600B43D62 /* RegistroViewController.swift in Sources */,
+				C0AF56352CBDD49D00B7E961 /* SceneDelegate.swift in Sources */,
+				C0CE8A862CC724830086E6BE /* ElegirUsuarioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0AF56382CBDD49D00B7E961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0AF56392CBDD49D00B7E961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0AF563D2CBDD49F00B7E961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0AF563E2CBDD49F00B7E961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0AF56412CBDD49F00B7E961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0AF56422CBDD49F00B7E961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0AF56442CBDD49F00B7E961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BernaolaSnapchat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.BernaolaSnapchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0AF56452CBDD49F00B7E961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BernaolaSnapchat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.BernaolaSnapchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0AF562A2CBDD49D00B7E961 /* Build configuration list for PBXProject "BernaolaSnapchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AF56412CBDD49F00B7E961 /* Debug */,
+				C0AF56422CBDD49F00B7E961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AF56432CBDD49F00B7E961 /* Build configuration list for PBXNativeTarget "BernaolaSnapchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AF56442CBDD49F00B7E961 /* Debug */,
+				C0AF56452CBDD49F00B7E961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		C0AF56542CBDEA2F00B7E961 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0AF564A2CBDDE2600B7E961 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C0AF564C2CBDDE2600B7E961 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		C0AF564E2CBDDE2600B7E961 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C0AF56502CBDDE2600B7E961 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C0AF56522CBDDE2600B7E961 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0AF56482CBDDB9A00B7E961 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C0AF56272CBDD49D00B7E961 /* Project object */;
+}
